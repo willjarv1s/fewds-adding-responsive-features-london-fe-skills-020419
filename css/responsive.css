@@ -1,0 +1,90 @@
+/* PHONES */
+
+@media (min-width: 1108px) {
+  
+  div {
+    background-color: pink;
+  }
+  
+  .wrapper {
+    width: 90%;
+  }
+  #social {
+  position: absolute;
+  top: 82px;
+  right: 4px;
+}
+
+}
+
+/* TABLETS */
+
+@media (max-width: 900px) {
+  
+  div {
+    background-color: blue;
+  }
+  
+  body {
+  font-size: 85%;
+   }
+   
+  #logo h1 {
+    height: 35px;
+    width: 35px;
+  }
+  
+   #logo h2 {
+    font-size: 2.2;
+  }
+
+  #social {
+    position: absolute;
+    top: 72px;
+  }
+  
+  col-3 p {
+    column-count: 2;
+  }
+  
+}
+
+/* 750px */
+
+@media (max-width: 750px) {
+  
+  div {
+    background-color: green;
+  
+  #navbar nav a {
+    font-size: 0.9em;
+  }
+  
+  .col-3 p {
+    column-count:1;
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  
+   .col-1 p {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  
+   .col-2 p {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+  
+  .border-right {
+    border: 0;
+  }
+  
+  #details div {
+    height: auto;
+  }
+  
+}
